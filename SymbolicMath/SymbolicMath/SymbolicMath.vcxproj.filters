@@ -24,10 +24,19 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="BigUint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SymbolicMath.h">
+    <ClInclude Include="Expression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,18 +47,17 @@
     <ClCompile Include="SymbolicMath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="SymbolicMath.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="small.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="SymbolicMath.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
+    <ClCompile Include="BigUint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
